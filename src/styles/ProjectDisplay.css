@@ -1,0 +1,39 @@
+.project {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .project h1 {
+    margin-top: 100px;
+    color: #6B705C;
+    font-size: 50px;
+  }
+  .project img {
+    width: 700px;
+    border-radius: 10px;
+  }
+  
+  .project p {
+    font-size: 50px;
+    color: #6B705C;
+  }
+  
+  .project svg {
+    font-size: 60px;
+    color: #6B705C;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .project h1 {
+      font-size: 25px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .project p {
+      font-size: 25px;
+    }
+  }

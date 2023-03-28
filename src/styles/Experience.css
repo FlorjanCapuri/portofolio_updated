@@ -1,0 +1,12 @@
+.vertical-timeline-element--education{
+    color: #6B705C;
+}
+
+.vertical-timeline-element--education h3{
+    color: #5C604F;
+    font-size: 30px;
+}
+
+.vertical-timeline-element--education p{
+    font-size: 20px;
+}

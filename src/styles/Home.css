@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #6B705C;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #6B705C;
+    color: #FFE8D6;
+  }
+  
+  .about h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    color: #CB997E;
+    height: 50px;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: #FFE8D6;
+  }
+  
+  .quote{
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .skills {
+    font-size: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    color: #6B705C;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-size: 30px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 35px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 15px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 55px;
+    }
+
+    .skills h1 {
+      font-size: 75px;
+    }
+
+    .skills span {
+      font-size: 25px;
+    }
+    
+  }
